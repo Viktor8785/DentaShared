@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Стоматология</title>
+    <!--link rel="apple-touch-icon" href="images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" href="favicon.ico"-->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="page__body">
+    <svg style="display: none">
+      <symbol id="burger-icon" width="56" height="43" viewBox="0 0 56 43" >
+        <rect width="56" height="11" rx="2"/>
+        <rect width="56" height="11" rx="2" fill-opacity="0.2"/>
+        <rect x="10" y="16" width="46" height="11" rx="2" />
+        <rect x="10" y="16" width="46" height="11" rx="2"  fill-opacity="0.2"/>
+        <rect y="32" width="56" height="11" rx="2" />
+        <rect y="32" width="56" height="11" rx="2"  fill-opacity="0.2"/>
+      </symbol>
+    </svg>
+    <nav class="main-nav__list">
+      <li class="main-nav__item main-nav__item-first">
+        <a class="main-nav__item-wrapper" href="#">
+          <p class="main-nav__item-logo">ЛОГО</p>
+          <p class="main-nav__item-title">Стоматологоический центр</p>
+        </a>
+      </li>
+      <div class="main-nav__group">
+        <div class="main-nav__group-group">
+          <li>
+            <a class="main-nav__item" href="#">
+              Главная
+            </a>
+          </li>
+          <li>
+            <a class="main-nav__item" href="#">
+              Главная
+            </a>
+          </li>
+          <li>
+            <a class="main-nav__item" href="#">
+              Главная
+            </a>
+          </li>
+        </div>
+        <li class="main-nav__item main-nav__item-last">
+          <a class="main-nav__item" href="tel:+7 495 988 97 95">
+            <p class="main-nav__item-phonetitle">ПОЗВОНИТЬ НАМ</p>
+            <p class="main-nav__item-phone">7 (495) 988 97 95</p>
+          </a>
+        </li>
+      </div>
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+        <svg class="main-nav__burger-icon" width="56" height="43">
+          <use xlink:href="#burger-icon"></use>
+        </svg>
+      </button>
+    </nav>
+    <section class="main-intro">
+      <p class="main-intro__title">
+        Когда Вы улыбаетесь, весь мир улыбается в ответ - доверьте нам создать эту магию!
+      </p>
+      <p class="main-intro__subtitle">
+        Зубы за 1 день <br>с пожизненной гарантией
+      </p>
+      <div class="main-intro__address">
+        <svg class="main-intro-point" width="22" height="26">
+          <use xlink:href="img/icons/stack.svg#point-icon"></use>
+        </svg>
+        <p class="main-intro__address-text">
+          г. Москва, Хлебников переулок 4, стр. 2
+        </p>
+      </div>
+      <picture class="main-intro__photo" >
+        <!--source type="image/webp" media="(min-width: 1440px)" srcset="img/main-intro-photo-desktop.webp 1x, img/main-intro-photo-desktop@2x.webp 2x">
+        <source type="image/webp" srcset="img/main-intro-photo-mobile.webp 1x, img/main-intro-photo-mobile@2x.webp 2x"-->
+        <source media="(min-width: 1440px)" srcset="img/main-intro-photo-desktop.png 1x, img/main-intro-photo-desktop@2x.png 2x">
+        <img class="main-intro__photo-img" src="img/main-intro-photo-mobile.png" srcset="img/main-intro-photo-mobile@2x.png 2x" alt="">
+      </picture>
+      <picture class="main-intro__bg2" >
+        <!--source type="image/webp" media="(min-width: 1440px)" srcset="img/main-intro-bg2-desktop.webp 1x, img/main-intro-bg2-desktop@2x.webp 2x">
+        <source type="image/webp" srcset="img/main-intro-bg2-mobile.webp 1x, img/main-intro-bg2-mobile@2x.webp 2x"-->
+        <source media="(min-width: 1440px)" srcset="img/main-intro-bg2-desktop.png 1x, img/main-intro-bg2-desktop@2x.png 2x">
+        <img class="main-intro__photo-img" src="img/main-intro-bg2-mobile.png" srcset="img/main-intro-bg2-mobile@2x.png 2x" alt="">
+      </picture>
+      <button class="main-intro__button" type="button">
+        КОНСУЛЬТАЦИЯ
+      </button>
+    </section>
+    <section class="services">
+      <h2 class="services__title">
+        Наши услуги
+      </h2>
+      <div class="services__select">
+        <p class="services__item services__item-checked">
+          Терапевтическая стоматология
+        </p>
+        <a id="services-arrow">
+          <svg class="services__select-arrow" width="24" height="14">
+            <use xlink:href="img/icons/stack.svg#arrow-icon"></use>
+          </svg>
+        </a>
+      </div>
+      <nav class="services__list">
+        <li class="services__item">
+            Терапевтическая стоматология
+        </li>
+        <li class="services__item">
+          Ортопедическая стоматология
+        </li>
+        <li class="services__item">
+            хирургическая стоматология
+        </li>
+      </nav>
+      <div class="services__block">
+        <ul class="services__articles">
+          <li class="services__article services__article--hygiene">
+            ПРФЕССИОНАЛЬНАЯ ГИГИЕНА
+          </li>
+          <li class="services__article services__article--white">
+            отбеливание
+          </li>
+          <li class="services__article services__article--chanel">
+            лечение каналов
+          </li>
+          <li class="services__article services__article--decay">
+            лечение кариеса
+          </li>
+          <li class="services__article services__article--gum">
+            лечение дёсен
+          </li>
+          <li class="services__article services__article--chanel">
+            лечение каналов
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer">
+    </footer>
+    <section class="modal">
+      <div class="modal__bg"></div>
+      <div class="modal__container">
+        <button type="button" class="modal__button"></button>
+        <div class="modal__wrapper">
+          <p class="price__calc-square price__calc-title modal__title">Встретиться на объекте</p>
+          <p class="price__calc-subtitle modal__subtitle">Посмотреть качество, познакомится с бригадой, обсудить ваш проект</p>
+          <form class="price__square-form modal__form" id="form-modal">
+            <div class="price__contacts-fields">
+              <div class="contacts__field-input">
+                <label class="contacts__input-label" for="modal-phone" tabindex="0">Ваш номер телефона*</label>
+                <input class="contacts__input" id="modal-phone" type="text" name="modal-phone" placeholder="Номер телефона"  required pattern="\+[0-9]{11,13}">
+              </div>
+              <div class="contacts__field-input">
+                <label class="contacts__input-label" for="modal-name" tabindex="0">Ваше имя*</label>
+                <input class="contacts__input" id="modal-name" type="text" name="modal-name" placeholder="Как вас зовут" required>
+              </div>
+            </div>
+            <a class="contacts__button modal__button-calc" id="button-modal">Отправить</a>
+            <div class="contacts__field-checkbox">
+              <input class="contacts__checkbox visually-hidden" id="modal-checkbox" type="checkbox" name="modal-checkbox"  required>
+              <label class="contacts__checkbox-label" for="modal-checkbox" tabindex="0">Даю согласие на Обработку персональных данных</label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="modal-project">
+      <div class="modal__bg"></div>
+      <div class="modal-project__container">
+        <button type="button" class="modal__button" id="modal-project-close" ></button>
+        <div class="modal-project__wrapper">
+          <p class="price__calc-square price__calc-title modal-project__title">Просто прикрепите проект и получите коммерческое предложение на строительство</p>
+          <p class="price__calc-subtitle modal-project__subtitle">Инженер-сметчик рассчитает стоимость работ и материалов по оптовым ценам</p>
+          <form class="price__square-form modal-project__form" id="form-modal-project">
+            <div class="price__contacts-fields modal-project__fields">
+              <div class="contacts__field-input modal__input modal-project__input">
+                <p class="modal-project__label-title">Прикрепить файл</p>
+                <div class="modal-project__label-wrapper">
+                  <label class="contacts__input-label" for="file-modal-project" tabindex="0">
+                    <div class="modal-project__label">
+                      <div class="modal-project__label-icon"></div>
+                    </div>
+                  </label>
+                  <p class="modal-project__label-text">Ваш проект</p>
+                </div>
+                <input class="contacts__input visually-hidden" id="file-modal-project" type="file" name="modal-project-file">
+              </div>
+              <div class="contacts__field-input modal__input">
+                <label class="contacts__input-label" for="modal-project-name" tabindex="0">Ваше имя*</label>
+                <input class="contacts__input" id="modal-project-name" type="text" name="modal-project-name" placeholder="Как вас зовут" required>
+              </div>
+              <div class="contacts__field-input">
+                <label class="contacts__input-label" for="modal-project-phone" tabindex="0">Ваш номер телефона*</label>
+                <input class="contacts__input" id="modal-project-phone" type="text" name="modal-project-phone" placeholder="Номер телефона"  required pattern="\+[0-9]{11,13}">
+              </div>
+              <div class="contacts__field-input">
+                <label class="contacts__input-label" for="modal-project-comments" tabindex="0">Комментарий</label>
+                <input class="contacts__input" id="modal-project-comments" type="text" name="modal-project-comments" placeholder="Задайте свой вопрос">
+              </div>
+            </div>
+            <a class="contacts__button modal__button-calc" id="button-modal-project">Отправить</a>
+            <div class="contacts__field-checkbox">
+              <input class="contacts__checkbox visually-hidden" id="modal-project-checkbox" type="checkbox" name="modal-project-checkbox"  required>
+              <label class="contacts__checkbox-label" for="modal-project-checkbox" tabindex="0">Даю согласие на Обработку персональных данных</label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="modal-confirm">
+      <div class="modal__bg"></div>
+      <div class="modal-confirm__container">
+        <button type="button" class="modal__button" id="modal-confirm-close" ></button>
+        <div class="modal-confirm__wrapper">
+          <p class="price__calc-square price__calc-title modal-confirm__title">Спасибо за доверие!</p>
+          <p class="price__calc-subtitle modal-confirm__subtitle">Мы вышлем вам расчёт на WhatsApp и проконсультируем</p>
+          <p class="price__calc-subtitle modal-confirm__advertising">У нас много хороших работ, посмотрите их по ссылке, пожалуйста</p>
+          <a class="contacts__button modal-confirm__button" id="button-modal-confirm" href="#buildings">
+            <div class="modal-confirm__button-wrapper">
+              <p class="modal-confirm__button-text">Посмотреть портфолио</p>
+              <div class="modal-confirm__icon"></div>
+            </div>
+          </a>
+          <picture class="modal-confirm__picture" >
+            <source type="image/webp" media="(min-width: 1600px)" srcset="img/modal-confirm-desktop.webp 1x, img/modal-confirm-desktop@2x.webp 2x">
+            <source type="image/webp" srcset="img/modal-confirm-mobile.webp 1x, img/modal-confirm-mobile@2x.webp 2x"!>
+            <source media="(min-width: 1600px)" srcset="img/modal-confirm-desktop.jpg 1x, img/modal-confirm-desktop@2x.jpg 2x">
+            <img class="modal-confirm__photo-img" src="img/modal-confirm-mobile.jpg" srcset="img/modal-confirm-mobile@2x.jpg 2x" alt="">
+          </picture>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
